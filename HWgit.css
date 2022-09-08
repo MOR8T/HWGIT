@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+}
+.container-first {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 5.5vh 100vh 27vh 80vh;
+    font-family: 'Raleway', sans-serif;
+    grid-template-areas: "con1"
+    "con2"
+    "con3"
+    "con4";
+}
+/* --------------------------1---------------------------- */
+.container-first-1 {
+    grid-area: con1;
+    display: grid;
+    grid-template-columns: 120px 90px 90px 90px auto 130px;
+    grid-template-rows: 5.5vh;
+}
+.container-first-1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 1.2em;
+}
+.con1-1{
+    display: grid;
+    grid-template: auto;
+    place-content: center;
+}
+.con1-1:hover {
+    background-color: rgb(208, 208, 208);
+    color: black;
+}
+.content-first-1 {
+    background-color: #f44336;
+}
+.content-first-1 a{
+    color: white;
+}
+.content-first-1 i{
+    margin: 0px 10px;
+}
+.content-first-6 {
+    background-color: rgb(234, 234, 234);
+}
+/* -----------------------------2-------------------------- */
+.container-first-2 {
+    grid-area: con2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1.5fr 1fr;
+    background-image: url(./img/hotel.jpg);
+    background-size: cover;
+    margin: 0px 10px;
+    grid-template-areas: ". ."
+    "con2-1 ."
+    ". .";
+}
+.content-first2-1 {
+    grid-area: con2-1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.8fr repeat(3, 1fr);
+    background-color: white;
+    grid-template-areas: "con2-2 con2-2"
+    "con2-3 con2-4"
+    "con2-5 con2-6"
+    "con2-7 .";
+    margin: 0px 10px;
+}
+.content-first2-2 {
+    grid-area: con2-2;
+    background-color: #f44336;
+}
+.content-first2-2 p {
+    font-size: 2em;
+    color: white;
+    margin: 8px 0px 0px 10px
+}
+.content-first2-2 i {
+    margin: 0px 10px;
+}
+.content-first2-3 {
+    grid-area: con2-3;
+}
+.content-first2-3 p, input {
+    margin: 0px 0px 0px 20px;
+}
+.content-first2-3 p{
+    margin: 10px 0px 0px 20px;
+}
+.content-first2-3 input {
+    padding: 10px 150px 10px 10px;
+}
+.content-first2-4 {
+    grid-area: con2-4;
+}
+.content-first2-4 p, input {
+    margin: 0px 0px 0px 20px;
+}
+.content-first2-4 p{
+    margin: 10px 0px 0px 20px;
+}
+.content-first2-4 input {
+    padding: 10px 150px 10px 10px;
+}
+.content-first2-5 {
+    grid-area: con2-5;
+}
+.content-first2-5 p, input {
+    margin: 0px 0px 0px 20px;
+}
+.content-first2-5 p{
+    margin: 10px 0px 0px 20px;
+}
+.content-first2-5 input {
+    padding: 10px 150px 10px 10px;
+}
+.content-first2-6 {
+    grid-area: con2-6;
+}
+.content-first2-6 p, input {
+    margin: 0px 0px 0px 20px;
+}
+.content-first2-6 p{
+    margin: 10px 0px 0px 20px;
+}
+.content-first2-6 input {
+    padding: 10px 150px 10px 10px;
+}
+.content-first2-7 {
+    grid-area: con2-7;
+}
+.content-first2-7 input {
+    background-color: rgb(103, 103, 103);
+    margin: 20px 0px 0px 20px;
+    padding: 10px 30px 10px 30px; 
+    color: white;
+    border: 1px solid white;
+}
+/* ------------------------------3--------------------------- */
+.container-first-3{
+    grid-area: con3;
+    display: grid;
+    grid-template-columns: 25.5% 25% 15% 15% 15%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: "con3-1 con3-1 . . ."
+    "con3-2 con3-3 con3-4 con3-5 con3-6";
+    margin: 0px 10px;
+    background-color: rgb(232, 232, 232);
+    gap: 20px;
+}
+.con3-1 {
+}
+.content-first3-1 {
+    grid-area: con3-1;
+    font-weight: 400;
+    align-self: center;
+    margin-top: 20px;
+}
+.content-first3-1 h2 {
+    font-weight: 400;
+    margin-bottom: 13px;
+}
+.content-first3-2 {
+    grid-area: con3-2;
+}
+.content-first3-3 {
+    grid-area: con3-3;
+}
+.content-first3-4 {
+    grid-area: con3-4;
+}
+.content-first3-5 {
+    grid-area: con3-5;
+}
+.content-first3-6 {
+    grid-area: con3-6;
+}
+.container-first-3 i {
+    margin: 20px 0px 0px 0px;
+}
+.con3-3 input {
+    padding: 10px 45px 10px 10px;
+    margin-left: 0px;
+}
+.con3-2 input {
+    margin: 0;
+    padding: 10px 200px 10px 10px;
+}
+.con3-4 input {
+    margin: 0;
+    padding: 10px 105px 10px 10px;
+    background-color: black;
+    color: white;
+}
+.con3-4 input:hover {
+    color: black;
+    background-color: grey;
+}
+.con3-4 input, .con3-3 input, .con3-2 input{
+    border: 1px solid white;
+}
+/* ------------------------------4--------------------------- */
+.container-first-4 {
+    grid-area: con4;
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    grid-template-rows: auto;
+    gap: 20px;
+    margin: 0px 10px;
+    background-color: rgb(232, 232, 232);
+}
+.content-first4-1 {
+    border: 1px solid black;
+}
+.content-first4-1 img{
+    width: 100%;
+}
+.content-first4-2 {
+    padding: 20px;
+}
+.content-first4-2 h1 {
+    font-weight: 400;
+    font-size: 1.4em;
+}
+.content-first4-2 h1, p {
+    margin: 10px 0px;
+}
+.content-first4-2 a {
+    background-color: black;
+    padding: 9px 170px;
+    color: white;
+    text-decoration: none;
+}
